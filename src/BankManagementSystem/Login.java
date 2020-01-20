@@ -13,8 +13,7 @@ public class Login extends JFrame implements ActionListener{
   
     Login(){  
         
-        //Move the text to the center
-        
+        //center the text
         setFont(new Font("System", Font.BOLD, 22));
         Font f = getFont();
         FontMetrics fm = getFontMetrics(f);
@@ -26,10 +25,6 @@ public class Login extends JFrame implements ActionListener{
         //for (int i=0; i!=w; i++) pad +=" ";   
         pad = String.format("%"+w+"s", pad);
         setTitle(pad+"AUTOMATED TELLER MACHINE");
-        
-       
-       
-        
         
         
         l1 = new JLabel("WELCOME TO ATM");
@@ -98,8 +93,6 @@ public class Login extends JFrame implements ActionListener{
         setLocation(500,200);
         setVisible(true);
         
-
-        
     }
     public void actionPerformed(ActionEvent ae){
        
@@ -131,9 +124,7 @@ public class Login extends JFrame implements ActionListener{
                     System.out.println("error: "+e);
         }
             
-    }
-    
-    
+    } 
     public static void main(String[] args){
         new Login().setVisible(true);
     }
