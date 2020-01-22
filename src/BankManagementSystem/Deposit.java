@@ -6,7 +6,6 @@ import javax.swing.*;
 import java.sql.*;
 import java.util.*;
 
-
 public class Deposit extends JFrame implements ActionListener{
 	JTextField t1,t2;
     JButton b1,b2,b3;
@@ -56,8 +55,7 @@ public class Deposit extends JFrame implements ActionListener{
         b3.setFont(new Font("System", Font.BOLD, 18));
         b3.setBackground(Color.BLACK);
         b3.setForeground(Color.WHITE);
-        
-        
+      
         setLayout(null);
         
         l3.setBounds(620,10,80,30);
