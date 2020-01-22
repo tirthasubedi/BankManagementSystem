@@ -101,8 +101,7 @@ public class Signup extends JFrame implements ActionListener{
         t7 = new JTextField();
         t7.setFont(new Font("Raleway", Font.BOLD, 14));
         
-       
-        
+         
         b = new JButton("Next");
         b.setFont(new Font("Raleway", Font.BOLD, 14));
         b.setBackground(Color.BLACK);
@@ -127,9 +126,8 @@ public class Signup extends JFrame implements ActionListener{
         r5 = new JRadioButton("Other");
         r5.setFont(new Font("Raleway", Font.BOLD, 14));
         r5.setBackground(Color.WHITE);
+    
         
-        
-     
         String date[] = {"1","2","3","4","5","6","7","8","9"};
         c1 = new JComboBox(date);
         c1.setBackground(Color.WHITE);
@@ -141,8 +139,7 @@ public class Signup extends JFrame implements ActionListener{
         String year[] = {"1990","1991","1992","1993","1994","1995","1996","1997","1998","1999","2000","2001","2002"};
         c3 = new JComboBox(year);
         c3.setBackground(Color.WHITE);
-        
-        
+  
         
         setLayout(null);
         l1.setBounds(140,20,600,40);
@@ -209,9 +206,7 @@ public class Signup extends JFrame implements ActionListener{
         add(r4);
         
         r5.setBounds(635,390,100,30);
-        add(r5);
-        
-        
+        add(r5);    
         
         l9.setBounds(100,440,200,30);
         add(l9);
@@ -250,8 +245,7 @@ public class Signup extends JFrame implements ActionListener{
     }
     
     public void actionPerformed(ActionEvent ae){
-        
-        
+         
         String a = t1.getText();
         String b = t2.getText();
         
