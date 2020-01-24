@@ -156,17 +156,14 @@ public class Transcations extends JFrame implements ActionListener{
                 }
                
             } catch (Exception e) {
-             
                 e.printStackTrace();
-            
             }
-       
+            
         }else if(ae.getSource()==b7){ 
             
             System.exit(0);
             
-        }   
-        
+        }    
     }
     
     public static void main(String[] args){
